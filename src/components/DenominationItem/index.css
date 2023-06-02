@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.value-btn {
+  width: 130px;
+  background-color: #382f5a;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 4px;
+  border-radius: 5px;
+  color: #d4d2db;
+  border-bottom: 1px solid #d4d2db;
+  cursor: pointer;
+  outline: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
