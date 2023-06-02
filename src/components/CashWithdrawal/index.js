@@ -37,14 +37,14 @@ class CashWithdrawal extends Component {
             <p>{initialName}</p>
           </div>
           <div className="balance-container">
-            <h1 className="your-balance">Your Balance</h1>
+            <p className="your-balance">Your Balance</p>
             <div>
-              <h1 className="balance">{balance}</h1>
+              <p className="balance">{balance}</p>
               <p>In Rupees</p>
             </div>
           </div>
           <div className="withdraw-container">
-            <h1 className="withdraw-heading">Withdraw</h1>
+            <p className="withdraw-heading">Withdraw</p>
             <p className="withdraw-description">CHOOSE SUM (IN RUPEES)</p>
             <ul className="denomination-container-btn">
               {denominationsList.map(each => (
